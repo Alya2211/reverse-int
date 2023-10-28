@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-const reverse = require('./src');
+const reverse = require('./src/index.js');
 
 it('Should return 261 when 162 given', () => {
   const reversed = reverse(162);
